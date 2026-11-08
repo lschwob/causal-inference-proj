@@ -18,7 +18,7 @@ on Bitcoin in a ±120-minute window, using 1-minute BTCUSDT prices (Binance, 202
 | File | Content |
 |---|---|
 | `notebooks/01_btc_us_macro_causal.ipynb` | Full analysis: DAG and backdoor criterion, naive comparison, DiD with parallel-trends test, synthetic control with donor pool and placebos, directional effect, falsification, identification critique, one-page recommendation |
-| `report/report.pdf` | Written report (built by `report/build_report.py`) |
+| `report/report.pdf` | Final written report |
 | `figures/`, `outputs/` | Figures and tables produced by the notebook |
 
 ## How to run
@@ -29,7 +29,6 @@ Locally:
 pip install -r requirements.txt
 python src/download_binance.py --start 2022-01 --end 2026-10   # ~2 min, writes data/btcusdt_1m.parquet
 jupyter nbconvert --to notebook --execute --inplace notebooks/01_btc_us_macro_causal.ipynb
-python report/build_report.py                                   # rebuilds report/report.pdf
 ```
 
 On Google Colab: open the notebook and run all cells. The first cell clones this repository and downloads the Binance data.
