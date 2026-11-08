@@ -1,0 +1,14 @@
+# Large or re-downloadable data
+data/*.parquet
+data/*.csv.gz
+data/monetary-policy-surprises-data.xlsx
+
+# Local / personal files (not part of the deliverable)
+CLAUDE.md
+COMMIT_PLAN.md
+docs/
+
+# Python / Jupyter / macOS
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store

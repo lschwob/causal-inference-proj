@@ -1,0 +1,12 @@
+numpy
+pandas>=2.0
+scipy
+statsmodels
+matplotlib
+pyarrow
+openpyxl
+nbformat
+nbconvert
+ipykernel
+reportlab
+pillow
