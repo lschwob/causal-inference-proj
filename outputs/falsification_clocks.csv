@@ -1,0 +1,5 @@
+label,did_vol,t,real
+True clock,0.967,16.082,1
+Shift -12 h,0.036,0.687,0
+Shift -6 h,0.025,0.465,0
+Shift +6 h,-0.032,-0.582,0
